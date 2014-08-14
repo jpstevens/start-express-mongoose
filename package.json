@@ -1,6 +1,6 @@
 {
   "name": "start-express-mongoose",
-  "version": "0.0.0-pre1",
+  "version": "0.0.0-pre2",
   "description": "A Mongoose boot helper for Express.js",
   "main": "index.js",
   "license": "ISC",

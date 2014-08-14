@@ -9,7 +9,7 @@ exports.start = function (app) {
     if (err) {
       deferred.reject(err);
     } else {
-      var message = "Mongoose connected to: #{mongodb}";
+      var message = 'Mongoose connected to: ' + mongodb;
       console.log(chalk.green(" ✔ ") + message);
       deferred.resolve();
     }
