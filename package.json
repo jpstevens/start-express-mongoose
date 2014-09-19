@@ -1,12 +1,18 @@
 {
   "name": "start-express-mongoose",
-  "version": "0.0.0-pre2",
+  "version": "0.1.0",
   "description": "A Mongoose boot helper for Express.js",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*-spec.js"
+  },
   "license": "ISC",
   "dependencies": {
     "q": "^1.0.1",
     "chalk": "^0.5.1",
-    "mongoose": "*"
+    "mongoose": ">=3.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.0.0"
   }
 }
