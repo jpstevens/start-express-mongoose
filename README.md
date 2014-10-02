@@ -1,6 +1,7 @@
 # start-express-mongoose
 [![Build Status](https://travis-ci.org/jpstevens/start-express-mongoose.svg?branch=master)](https://travis-ci.org/jpstevens/start-express-mongoose)
 ![Downloads/month](http://img.shields.io/npm/dm/start-express-mongoose.svg)
+
 A Mongoose boot helper for Express.js
 
 ## Installation
