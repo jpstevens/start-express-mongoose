@@ -67,6 +67,7 @@ describe('#start', function(){
     describe('when MongoDB URL is not defined', function(){
 
       beforeEach(function(){
+        delete process.env.MONGO_URL;
         this.promise = startExpressMongoose.start(this.app);
       });
 
