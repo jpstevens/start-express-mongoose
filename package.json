@@ -4,7 +4,7 @@
   "description": "A Mongoose boot helper for Express.js",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/**/*-spec.js"
+    "test": "./node_modules/.bin/mocha -t 10000 tests/**/*-spec.js"
   },
   "license": "ISC",
   "dependencies": {
