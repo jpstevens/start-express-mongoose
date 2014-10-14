@@ -1,6 +1,6 @@
 {
   "name": "start-express-mongoose",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Mongoose boot helper for Express.js",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,15 @@
   "license": "ISC",
   "dependencies": {
     "q": "^1.0.1",
-    "chalk": "^0.5.1",
-    "mongoose": ">=3.0.0"
+    "chalk": "^0.5.1"
+  },
+  "peerDependencies": {
+    "mongoose": "3.x",
+    "express": ">3.x"
   },
   "devDependencies": {
-    "express": "^4.0.0",
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "mongoose": "3.x",
+    "express": ">3.x"
   }
 }
