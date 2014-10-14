@@ -1,6 +1,6 @@
 {
   "name": "start-express-mongoose",
-  "version": "0.2.0",
+  "version": "0.2.0-pre1",
   "description": "A Mongoose boot helper for Express.js",
   "main": "index.js",
   "scripts": {
